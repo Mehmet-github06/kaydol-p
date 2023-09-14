@@ -1,0 +1,82 @@
+body {  
+    margin: 0;
+    background-color: #131034;
+    background: url(./en-guzel-sonbahar-fotograflari.jpg);
+    background-size: cover;
+
+} 
+
+
+.singup_form {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(./indir.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25px;
+    background-position: 450px;
+    opacity: 0.9;
+    
+
+
+}
+.singup_form h1{
+    color: rgb(182, 28, 28);
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px;
+}
+.singup_form input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+
+}
+.txt{
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.signup-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: rgb(72, 25, 199);
+    color: rgb(11, 10, 12);
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+    text-transform: uppercase;
+
+}
+.signup-btn:hover{
+    transform: scale(0.96);
+    background-color: rgb(185, 140, 108);
+    color: orange;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.singup_form a{
+    color: rgb(153, 15, 79);
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 25px;
+    padding: 20px;
+    transition: 0.8s;
+}
+.singup_form a:hover{
+    color: beige;
+    border: 2px solid chartreuse;
+    border-radius: 50px;
+}
